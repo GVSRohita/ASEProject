@@ -1,0 +1,68 @@
+<!--<div class="parent-container">-->
+<!--  <div class="child-container">-->
+<!--    <h2><b>Login-->
+<!--    </b></h2><br>-->
+<!--      <div class="form-group">-->
+<!--        <div class="form-group col-lg-6 col-lg-offset-3 input-group">-->
+<!--          Username : <input [(ngModel)]="user.email" type="text" class="form-control" placeholder="username">-->
+<!--          <br>-->
+<!--         Password : <input [(ngModel)]="user.password" type="text" class="form-control" placeholder="password" type="password">-->
+<!--        </div><br>-->
+<!--        <button type="button" class="btn btn primary col-lg-2 col-lg-offset-5 " (click)="login(user);">Login</button>-->
+<!--        <br><br><br>-->
+<!--        <button type="button" class="btn btn primary col-lg-2 col-lg-offset-5 " (click)="register(user);">New User? Register here</button>-->
+<!--      </div>-->
+<!--  </div>-->
+<!--</div>-->
+
+<div class="parent-container">
+  <div class="child-container">
+    <div class="content overflow-hidden">
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4">
+          <div class="block block-themed animated fadeIn" style="background-color: slategray">
+            <div class="block-header bg-primary">
+              <h3 class="block-title" style="background-color: steelblue">Login</h3>
+            </div>
+            <div class="block-content block-content-full block-content-narrow">
+              <h1 class="h2 font-w600 push-30-t push-5">Content Analysis</h1>
+              <p>Welcome, please login.</p>
+    <div class="form-group">
+      <div class="form-material form-material-primary floating">
+      <div class="form-group col-lg-6 col-lg-offset-3 input-group">
+          Username : <input [(ngModel)]="user.email" type="text" class="form-control" placeholder="username">
+          <br>
+      </div>
+        <div class="form-material form-material-primary floating">
+          <div class="form-group col-lg-6 col-lg-offset-3 input-group">
+            Password : <input [(ngModel)]="user.password" type="text" class="form-control" placeholder="password" type="password">
+          </div>
+      </div>
+      </div>
+      <div class="form-group">
+        <div class="col-xs-12">
+          <label class="css-input switch switch-sm switch-primary">
+            <input type="checkbox" id="login-remember-me" name="login-remember-me"><span></span> Remember Me?
+          </label>
+        </div>
+      </div>
+      <div class="form-group">
+        <button type="button" class="btn btn-block btn-primary" style="width: 50%; margin-left: 25%" (click)="login(user);">Login</button>
+        <div style="text-align: center"> <a  [routerLink]="['/register']">New user? Register here!</a> </div>
+        <br>
+      </div>
+
+    </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
