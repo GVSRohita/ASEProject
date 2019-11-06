@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<!--[if IE 9]>         <html class="ie9 no-focus" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-focus" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <title>Survey</title>
+
+  <meta name="description" content="OneUI - Admin Dashboard Template &amp; UI Framework created by pixelcave and published on Themeforest">
+  <meta name="author" content="pixelcave">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
+
+  <!-- Icons -->
+  <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
+  <link rel="shortcut icon" href="../../assets/img/favicons/favicon.png">
+
+  <link rel="icon" type="image/png" href="../../assets/img/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="../../assets/img/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="../../assets/img/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="../../assets/img/favicons/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="../../assets/img/favicons/favicon-192x192.png" sizes="192x192">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="../../assets/img/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="../../assets/img/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="../../assets/img/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="../../assets/img/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="../../assets/img/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="../../assets/img/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="../../assets/img/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="../../assets/img/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../assets/img/favicons/apple-touch-icon-180x180.png">
+  <!-- END Icons -->
+
+  <!-- Stylesheets -->
+  <!-- Web fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400italic,600,700%7COpen+Sans:300,400,400italic,600,700">
+
+  <!-- Bootstrap and OneUI CSS framework -->
+  <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" id="css-main" href="../../assets/css/oneui.css">
+
+  <!-- You can include a specific file from css/themes/ folder to alter the default color theme of the template. eg: -->
+  <!-- <link rel="stylesheet" id="css-theme" href="assets/css/themes/flat.min.css"> -->
+  <!-- END Stylesheets -->
+</head>
+<body>
+<div id="page-container" class="sidebar-l side-scroll header-navbar-fixed">
+  <!-- Side Overlay-->
+  <aside id="side-overlay">
+    <!-- Side Overlay Scroll Container -->
+    <div id="side-overlay-scroll">
+
+
+      <!-- Side Content -->
+      <div class="side-content remove-padding-t">
+        <!-- Account -->
+        <div class="block pull-r-l">
+          <div class="block-header bg-gray-lighter">
+            <ul class="block-options">
+              <li>
+                <button type="button" data-toggle="block-option" data-action="content_toggle"></button>
+              </li>
+            </ul>
+            <h3 class="block-title">Account</h3>
+          </div>
+
+        </div>
+        <!-- END Account -->
+
+
+      </div>
+      <!-- END Side Content -->
+    </div>
+    <!-- END Side Overlay Scroll Container -->
+  </aside>
+  <!-- END Side Overlay -->
+
+  <!-- Header -->
+<!--  <header id="header-navbar">
+    <div class="content-mini content-mini-full content-boxed">
+      &lt;!&ndash; Header Navigation Right &ndash;&gt;
+      <ul class="nav-header pull-right">
+        <li class="visible-xs">
+          &lt;!&ndash; Toggle class helper (for .js-header-search below), functionality initialized in App() -> uiToggleClass() &ndash;&gt;
+          <button class="btn btn-default" data-toggle="class-toggle" data-target=".js-header-search" data-class="header-search-xs-visible" type="button">
+            <i class="fa fa-search"></i>
+          </button>
+        </li>
+
+        <li>
+          &lt;!&ndash; Layout API, functionality initialized in App() -> uiLayoutApi() &ndash;&gt;
+          <button class="btn btn-default btn-image" data-toggle="layout" data-action="side_overlay_toggle" type="button">
+            &lt;!&ndash;<img src="../../assets/img/avatars/avatar9.jpg" alt="Avatar">&ndash;&gt;
+            <i class="fa"></i>
+          </button>
+        </li>
+      </ul>
+      &lt;!&ndash; END Header Navigation Right &ndash;&gt;
+
+      &lt;!&ndash; Header Navigation Left &ndash;&gt;
+      <ul class="nav-header pull-left">
+        <li class="header-content">
+          <a class="h5" href="index.html">
+
+          </a>
+        </li>
+        <li>
+          &lt;!&ndash; Themes functionality initialized in App() -> uiHandleTheme() &ndash;&gt;
+          <div class="btn-group">
+            <button class="btn btn-link text-gray dropdown-toggle" data-toggle="dropdown" type="button">
+              <i class="si si-drop"></i>
+            </button>
+          </div>
+        </li>
+      </ul>
+      &lt;!&ndash; END Header Navigation Left &ndash;&gt;
+    </div>
+  </header>-->
+  <!-- END Header -->
+
+  <!-- Main Container -->
+  <main id="main-container">
+    <!-- Sub Header -->
+    <div class="bg-gray-lighter visible-xs">
+      <div class="content-mini content-boxed">
+        <button class="btn btn-block btn-default visible-xs push" data-toggle="collapse" data-target="#sub-header-nav">
+         <!-- <i class="fa fa-navicon push-5-r"></i>-->Menu
+        </button>
+      </div>
+    </div>
+    <div class="bg-primary-lighter collapse navbar-collapse remove-padding" id="sub-header-nav">
+      <div class="content-mini content-boxed">
+        <ul class="nav nav-pills nav-sub-header push">
+          <li class="active">
+            <a href="">
+              <!--<i class="fa fa-dashboard push-5-r"></i>--><!--<i class="fa fa-dashboard push-5-r"></i>-->Home
+            </a>
+          </li>
+
+          <li>
+            <div class="form-group">
+
+              <!--<mat-form-field>
+                <mat-label>Favorite food</mat-label>
+                <mat-select>
+                  <mat-option *ngFor="let food of foods" [value]="food.value">
+                    {{food.viewValue}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>-->
+            </div>
+          </li>
+          <li>
+
+          </li>
+          <li>
+            <div class="form-group">
+              <!--<button type="button" class="btn btn-block btn-primary" (click)="showDelOrg();" > Delete Organisation</button>-->
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- END Sub Header -->
+
+    <!-- Page Content -->
+    <div class="content content-boxed">
+      <!-- Section -->
+      <div class="bg-image img-rounded overflow-hidden push" style="background-image: url('../../assets/img/photos/photo29@2x.jpg');">
+        <div class="bg-black-op">
+          <div class="content">
+            <div class="block block-transparent block-themed text-center">
+              <div class="block-content">
+                <h1 class="h1 font-w700 text-white animated fadeInDown push-5">Want to view the video</h1>
+                <h2 class="h4 font-w400 text-white-op animated fadeInUp">Upload here!</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END Section -->
+
+      <!-- Charts -->
+      <div class="row">
+<!--        <div class="col-md-6">-->
+<!--          <div class="block block-rounded block-opt-refresh-icon8">-->
+<!--            <div class="block-header">-->
+<!--              <ul class="block-options">-->
+<!--                <li>-->
+<!--                  <button type="button" data-toggle="block-option" data-action="refresh_toggle" data-action-mode="demo">&lt;!&ndash;<i class="si si-refresh"></i>&ndash;&gt;</button>-->
+<!--                </li>-->
+<!--              </ul>-->
+<!--              <h3 class="block-title">Upload the video</h3>-->
+<!--            </div>-->
+<!--            <div class="block-content block-content-full bg-gray-lighter">-->
+<!--              <div class="form-group">-->
+<!--                <div class="form-group col-lg-6 col-lg-offset-3 input-group">-->
+
+
+<!--                  Video URL <textarea class="form-control" id="sEmails" #sEmails></textarea>-->
+<!--                  <br>-->
+<!--                  <div class="form-group ">-->
+<!--                    <div class="col-xs-12 col-sm-6 button-padding">-->
+<!--                      <button type="button" class="btn btn-block btn-primary" (click)="sendEmail();" > UPLOAD</button>-->
+<!--                    </div>-->
+<!--                  </div>-->
+<!--                </div>-->
+
+<!--              </div>-->
+<!--            </div>-->
+
+<!--          </div>-->
+<!--        </div>-->
+        <div class="col-md-12">
+          <div class="block block-rounded block-opt-refresh-icon8">
+            <div class="block-header">
+              <ul class="block-options">
+                <li>
+                  <button type="button" data-toggle="block-option" data-action="refresh_toggle" data-action-mode="demo">
+                    <!--<i class="si si-refresh"></i>--></button>
+                </li>
+              </ul>
+              <h3 class="block-title">View Video Here!</h3>
+            </div>
+            <div class="block-content block-content-full bg-gray-lighter text-center">
+              <iframe width="500" height="315" src="https://www.youtube.com/embed/pGSzMfKBV9Q" frameborder="0" allowfullscreen></iframe>
+
+              <video #video id="video" width="25" height="25" style="display: none" autoplay></video>
+              <div><button id="snap" (click)="capture()">Snap Photo</button></div>
+              <canvas #canvas id="canvas" width="640" height="480"></canvas>
+              <!-- Chart.js Charts (initialized in js/pages/base_pages_dashboard_v2.js), for more examples you can check out http://www.chartjs.org/docs/ -->
+              <div style="height: 320px;"><canvas class="js-dash-chartjs-sales"></canvas></div>
+              <div width="640" height="480">{{happiness}}</div>
+              <svg/>
+            </div>
+            <div class="block-content text-center">
+              <div class="row items-push-2x text-center push-20-t">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- END Charts -->
+    </div>
+    <!-- END Page Content -->
+  </main>
+  <!-- END Main Container -->
+
+  <!-- Footer -->
+  <footer id="page-footer" class="bg-body font-s12">
+
+  </footer>
+  <!-- END Footer -->
+</div>
+<!-- END Page Container -->
+
+<!-- OneUI Core JS: jQuery, Bootstrap, slimScroll, scrollLock, Appear, CountTo, Placeholder, Cookie and App.js -->
+<script src="../../assets/js/core/jquery.min.js"></script>
+<script src="../../assets/js/core/bootstrap.min.js"></script>
+<script src="../../assets/js/core/jquery.slimscroll.min.js"></script>
+<script src="../../assets/js/core/jquery.scrollLock.min.js"></script>
+<script src="../../assets/js/core/jquery.appear.min.js"></script>
+<script src="../../assets/js/core/jquery.countTo.min.js"></script>
+<script src="../../assets/js/core/jquery.placeholder.min.js"></script>
+<script src="../../assets/js/core/js.cookie.min.js"></script>
+<script src="../../assets/js/app.js"></script>
+
+<!-- Page Plugins -->
+<script src="../../assets/js/plugins/chartjs/Chart.min.js"></script>
+
+<!-- Page JS Code -->
+<script src="../../assets/js/pages/base_pages_dashboard_v2.js"></script>
+<script>
+    jQuery(function () {
+        // Init page helpers (CountTo plugin)
+        App.initHelpers('appear-countTo');
+    });
+</script>
+</body>
+</html>

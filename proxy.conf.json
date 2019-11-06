@@ -1,0 +1,8 @@
+//{
+//  "/api/*": {
+//    "target": "http://localhost:3001/videos/:video_id/users/:user_id/emotions",
+//    "secure": false,
+//    "logLevel": "debug",
+//    "changeOrigin": true
+//  }
+//}

@@ -4,6 +4,13 @@ import { Router } from '@angular/router';
 import {User} from "../../Models/user";
 import {AngularFireAuth} from 'angularfire2/auth';
 
+
+
+
+
+// const MDCFoo = mdc.foo.MDCFoo;
+// const MDCFooFoundation = mdc.foo.MDCFooFoundation;
+
 @Component({
   selector: 'app-search-food',
   templateUrl: './login.component.html',
